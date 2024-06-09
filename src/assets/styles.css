@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #212121; /* Darker background */
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center text globally */
+}
+
+
+
+/* Main Content Area */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure main content fills the viewport */
+}
+
